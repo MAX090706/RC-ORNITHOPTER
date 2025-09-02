@@ -1,4 +1,4 @@
-#🛩️ Ornithopter – Electronics
+#🛩️ Ornithopter – Electronics#
 
 This folder contains the electronics design, code, and documentation for the Ornithopter project.
 The first challenge in this field was to select the motor for the mech , we went with a 1400kv BLDC motor there were some selection criteria,
