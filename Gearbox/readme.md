@@ -1,7 +1,7 @@
 #  RC Ornithopter Project
 
 ##  GEARBOX
-For our RC Ornithopter, the gearbox is most crucial element which is responsible for reducing the high-speed rotation of the BLDC motor into a slow, powerful, and controlled flapping motion. The challenge was to design a gearbox that is lightweight, compact, durable, and efficient, while also achieving the large reduction ratio. After exploring various options we arrived at an afficient gearbox.
+For our RC Ornithopter, the gearbox is most crucial element which is responsible for reducing the high-speed rotation of the BLDC motor into a slow, powerful, and controlled flapping motion.Gearbox function is to reduce the speed of the input from the motor, while also multiplying the torque the input creates. The challenge was to design a gearbox that is lightweight, compact, durable, and efficient, while also achieving the large reduction ratio. After exploring various options we arrived at an afficient gearbox.
 
 ###  **Calculation of Reduction Ratio**
 For our **Ornithopter**, we needed a gearbox that was **lightweight, compact, low-friction, and capable of handling high torque with large reduction ratios**.  
@@ -34,18 +34,21 @@ To scale this down to **300 RPM (5 Hz flapping)**, we needed a gear reduction of
 
 Finally, we achieved our working solution.  
 
-Since we couldn’t print pinions smaller than **20 mm**, we purchased two 18-tooth pinions (module 0.529) from Robu.  
+Since we couldn’t print pinions smaller than **20 mm**, so we purchased two 18-teeth pinions (module 0.529) from Robu.  
 With these, we achieved the required reduction in just two stages:  
 
 - **Stage 1:** 18T pinion → 128T gear → **7.11:1 reduction**  
 - **Stage 2:** 18T pinion → 114T gear → **6.33:1 reduction**  
+
+The diameter of pinion is **9.522mm** while that of 128T gear is **67.712mm** which is used in the 1st stage.
+The 2 gears of 114 teeths each on which the crank is mounted has a diameter of **60.306mm** making our gearbox compact in size.
 
  **Final reduction ratio:**  
 \[
 7.11 \times 6.33 = 45.03
 \]  
 
-TO due this **Small PInion** we were able to give high reduction in just 2 stages to make our gearbox a **lightweight, efficient gearbox**   
+TO due this **Small PInion** we were able to give high reduction in just 2 stages to make our gearbox a **lightweight, efficient gearbox**.   
 
 ---
 
