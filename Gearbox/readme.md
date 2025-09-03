@@ -1,6 +1,7 @@
 #  RC Ornithopter Project
 
 ##  GEARBOX
+For our RC Ornithopter, the gearbox is most crucial element which is responsible for reducing the high-speed rotation of the BLDC motor into a slow, powerful, and controlled flapping motion. The challenge was to design a gearbox that is lightweight, compact, durable, and efficient, while also achieving the large reduction ratio. After exploring various options we arrived at an afficient gearbox.
 
 ###  **Calculation of Reduction Ratio**
 For our **Ornithopter**, we needed a gearbox that was **lightweight, compact, low-friction, and capable of handling high torque with large reduction ratios**.  
@@ -21,46 +22,13 @@ To scale this down to **300 RPM (5 Hz flapping)**, we needed a gear reduction of
 
 ---
 
-##  **Options Explored**
+## **Challenges**
 
-###  Compound Gear Train
-The first idea was a **4–5 stage compound gearbox** (8–10 gears total). While mechanically feasible, it turned out **too heavy** for our design — about **100 g**.  
-Also, our **3D printer couldn’t reliably print pinions smaller than 20 mm**, and gears larger than 10 cm were impractical.  
-Thus, **compound gear train was ruled out**.  
- 
-`![Compound Gear Train]()`  
+ 1.Our 3D printers limited us from printing pinions smaller than 20 mm and gears with very fine modules, which restricted design flexibility.
 
----
+ 2.Since the gearbox needed to be compact, we could not exceed a 10 cm diameter for any gear stage.
 
-###  Planetary Gearbox
-A **planetary gearbox** is compact and efficient, with gears arranged like a miniature solar system.  
-A carrier of **10–12 cm diameter** could give a reduction of **5:1 to 8:1**.  
-But to reach our requirement, we would need **two planetary gearboxes**, adding up to **100+ g**, making it unsuitable.  
-
-`![Planetary Gearbox]()`  
-
----
-
-###  Cycloidal Gearbox
-A **cycloidal gearbox** achieves **very high reduction ratios** with eccentric rolling motion.  
-However, these need to be made of metal, making them too heavy for our ornithopter.  
-
-`![Cycloidal Gearbox]()`  
-
----
-
-###  Hybrid (Planetary + Compound Gear Train)
-We also considered combining both systems:  
-
-- **1 Planetary gearbox** → ~**7:1 reduction**  
-- **2-stage compound gear train** → ~**6:1 reduction**  
-
-Together, this gave us **42:1 reduction**.  
-By printing gears with **ABS-like resin** (tougher and more durable than PLA), this design became **practical**.  
-
-`![Hybrid Gearbox]()`  
-
----
+ 3.With strict weight constraints, we had to minimize the number of gears — meaning we had to achieve a high reduction ratio in fewer stages, without compromising     efficiency
 
 ##  **Implemented Gearbox**
 
@@ -77,7 +45,7 @@ With these, we achieved the required reduction in just two stages:
 7.11 \times 6.33 = 45.03
 \]  
 
-This near-perfect match gave us a **lightweight, efficient gearbox** 🚀  
+TO due this **Small PInion** we were able to give high reduction in just 2 stages to make our gearbox a **lightweight, efficient gearbox**   
 
 ---
 
@@ -87,4 +55,4 @@ This near-perfect match gave us a **lightweight, efficient gearbox** 🚀
 
 ---
 
- With this, our **RC Ornithopter gearbox** was finalized, striking the right balance between **weight, durability, and efficiency**!
+ This is our final gearbox for our **RC Ornithopter gearbox** by maintaining a balance between **weight, durability, and efficiency**!
