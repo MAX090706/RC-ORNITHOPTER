@@ -52,9 +52,9 @@ TO due this **Small PInion** we were able to give high reduction in just 2 stage
 
 ---
 
-- `![Implemented Gearbox 1]()`  
-- `![Implemented Gearbox 2]()`  
-- `![Implemented Gearbox 3]()`  
+- `![Gearbox stage 1 front view]()`  
+- `![Gearbox stage 2 front view]()`  
+- `![Gearbox isometric view]()`  
 
 ---
 
