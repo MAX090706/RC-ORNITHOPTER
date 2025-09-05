@@ -25,8 +25,9 @@ We considered materials such as **nylon, mylar, or other parachute-like heat-shr
 Due to these limitations, the membraned wing design was eventually abandoned, and focus shifted to an aerofoiled wing.  
 
  Membraned Wing 
-- ![reference image]()  
-- ![onshape skeleton image]()  
+ <p align="center">
+  <img src="assets/onshape_wing_skeleton.png" alt="Onshape Skeleton " width="30%">
+  <img src="assets/membranewing.jpg" alt="REFERENCE" width="30%">  
 
 ---
 
@@ -43,8 +44,9 @@ During our research, we found that the **S1223 aerofoil**, with its lift-to-drag
 
 This new design proved to be much lighter  than the heat-shrinkable version.  
 
-📸 Aerofoiled Wing  
-- ![Aerofoiled Wing frontview]()  
-- ![S1223 Aerofoil]()  
+ Aerofoiled Wing 
+ <p align="center">
+  <img src="assets/aerofoil.jpg" alt="Aerofoiled Wing frontview" width="30%">
+  <img src="assets/gearbox_sideview.jpg" alt="S1223 Aerofoil" width="30%">
 
  
