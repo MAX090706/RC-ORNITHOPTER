@@ -52,7 +52,7 @@ TO due this **Small PInion** we were able to give high reduction in just 2 stage
 
 ---
 
-- `![Gearbox front view](Gearbox/assets/gearbox_front_view.jpg)`  
+- `![Gearbox front view](assets/gearbox_sideview.jpg)`  
 - `![Gearbox front view](Gearbox/assets/gearbox_sideview.jpg)`  
 - `![Gearbox onshape](Gearbox/assets/onshape)`  
 
