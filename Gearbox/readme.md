@@ -51,10 +51,10 @@ The 2 gears of 114 teeths each on which the crank is mounted has a diameter of *
 TO due this **Small PInion** we were able to give high reduction in just 2 stages to make our gearbox a **lightweight, efficient gearbox**.   
 
 ---
-
-- `![Gearbox front view](assets/gearbox_sideview.jpg)`  
-- `![Gearbox front view](Gearbox/assets/gearbox_sideview.jpg)`  
-- `![Gearbox onshape](Gearbox/assets/onshape)`  
+<p align="center">
+<img src="assets/gearbox_sideview.jpg" alt="Gearbox Side View" width="30%">
+<img src="assets/gearbox_front_view.jpg" alt="Gearbox front View" width="30%">
+<img src="assets/gearbox_onshape.jpg" alt="Gearbox onshape" width="30%">
 
 ---
 
