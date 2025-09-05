@@ -9,13 +9,13 @@ For our **Ornithopter**, we needed a gearbox that was **lightweight, compact, lo
 We selected a **BLDC motor of 1400 KV** and targeted a **flapping frequency of 5 Hz**. Using an **11.1V battery**, the motor theoretically spins at:  
 
 \[
-11.1 \times 1400 = 15,540 \text{ RPM}
+11.1 x 1400 = 15,540  RPM
 \]  
 
 According to the datasheet of the **A2212 10T BLDC motor**, it runs at about **80% efficiency**, which brings it down to:  
 
 \[
-15,540 \times 0.85 = 13,209 \text{ RPM}
+15,540 x 0.85 = 13,209 RPM
 \]  
 
 To scale this down to **300 RPM (5 Hz flapping)**, we needed a gear reduction of approximately **44:1**.  
@@ -45,16 +45,16 @@ The 2 gears of 114 teeths each on which the crank is mounted has a diameter of *
 
  **Final reduction ratio:**  
 \[
-7.11 \times 6.33 = 45.03
+7.11 x 6.33 = 45.03
 \]  
 
 TO due this **Small PInion** we were able to give high reduction in just 2 stages to make our gearbox a **lightweight, efficient gearbox**.   
 
 ---
 
-- `![Gearbox stage 1 front view]()`  
-- `![Gearbox stage 2 front view]()`  
-- `![Gearbox isometric view]()`  
+- `![Gearbox front view](Gearbox/assets/gearbox front view)`  
+- `![Gearbox front view](Gearbox/assets/gearbox sideview)`  
+- `![Gearbox onshape](Gearbox/assets/onshape)`  
 
 ---
 
