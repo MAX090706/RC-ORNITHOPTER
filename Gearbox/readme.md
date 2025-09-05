@@ -54,7 +54,7 @@ TO due this **Small PInion** we were able to give high reduction in just 2 stage
 <p align="center">
 <img src="assets/gearbox_sideview.jpg" alt="Gearbox Side View" width="30%">
 <img src="assets/gearbox_front_view.jpg" alt="Gearbox front View" width="30%">
-<img src="assets/Gearbox_onshape.PNG" alt="Gearbox onshape" width="30%">
+<img src="assets/Gearbox_onshape.png" alt="Gearbox onshape" width="30%">
 
 ---
 
