@@ -18,7 +18,6 @@
 
 - [Wing Mechanism](./Wing_Mechanism/README.md)
 
-- [Wing Design](./Wing_Design/README.md)
 - [Wing Design](./Wing_Design/README.md#wing-design)  
   - [Membraned Wing](./Wing_Design/README.md#membraned-wing)  
     - [Challenges Faced](./Wing_Design/README.md#challenges-faced)  
@@ -109,3 +108,9 @@ You can view the full **Onshape CAD model** of the Ornithopter [CAD][onshape].
 
 
 ---
+
+## Acknowledgements
+
+ [SRA VJTI][SRA] for providing us with required resources and guidance
+
+ [SRA]: https://sravjti.in/
