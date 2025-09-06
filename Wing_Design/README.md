@@ -49,4 +49,7 @@ This new design proved to be much lighter  than the heat-shrinkable version.
   <img src="assets/aerofoil.jpg" alt="Aerofoiled Wing frontview" width="35%">
   <img src="assets/S1223_aerofoil.jpg" alt="S1223 Aerofoil" width="32%">
 
- 
+## RESOURCES
+
+[Wings PDF](./assets\wing.pdf)
+
