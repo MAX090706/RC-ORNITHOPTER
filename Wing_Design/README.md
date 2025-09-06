@@ -51,5 +51,5 @@ This new design proved to be much lighter  than the heat-shrinkable version.
 
 ## RESOURCES
 
-[Wings PDF](./assets\wing.pdf)
+[Wings PDF](./assets/wing.pdf)
 
