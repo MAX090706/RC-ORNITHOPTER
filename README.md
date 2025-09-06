@@ -109,6 +109,12 @@ You can view the full **Onshape CAD model** of the Ornithopter [CAD][onshape].
 
 ---
 
+## resources
+
+[Cambridge aerospace studies PDF](./assets/book.pdf)
+
+[Festo Research paper](./assets/book.pdf)
+
 ## Acknowledgements
 
  [SRA VJTI][SRA] for providing us with required resources and guidance
