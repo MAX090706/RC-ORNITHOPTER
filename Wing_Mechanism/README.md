@@ -54,21 +54,24 @@ Classification check:
 ## 3) Flapping Mechanism Geometry & Result
 
 **Given dimensions** (mm):  
-- Input/Crank r2 = 19.3  
-- Coupler r3 = 60.0  
-- Output/Rocker r4 = 75.0  
-- Ground r1 = 98.8
+- Input/Crank $r_2$ = 19.3  
+- Coupler $r_3$ = 60.0  
+- Output/Rocker $r_4$ = 75.0  
+- Ground $r_1$ = 98.8
 
 ![geometry](assets/r1.png)
 
 **Kinematic model** (grounded pivots at (0,0) and (r1, 0)):
 
-- Crank tip: B = (r2*cos(theta2), r2*sin(theta2))  
-- Rocker tip: D = (r1 + r4*cos(theta4), r4*sin(theta4))  
-- Coupler constraint: distance BD = r3
+- Crank tip: B = $(r_2cos(\theta_2), r_2sin(\theta_2))$
+- Rocker tip: D = $(r_1 + r_4cos(\theta_4), r_4sin(\theta_4))$
+- Coupler constraint: distance BD = $r_3$
 
-Solution for theta4 can be found using :
-r1 + r2 * e^(i*theta2) = r3 * e^(i*theta3) + r4 * e^(i*theta4)
+Solution for $\theta_4$ can be found using :
+
+
+$$ r_1 + r_2  e^{(i\theta_2)} = r_3e^{(i\theta_3)} + r_4e^{(i\theta_4)} $$
+
 
 ### Computed flapping result 
 
@@ -106,9 +109,9 @@ From sizing: **Inner wing length** = 230 − 75 = **155 mm**.
 
 ###  Vector loop (complex form)
 
-r1 + r2 * e^(i*theta2) = r3 * e^(i*theta3) + r4 * e^(i*theta4)
+$$ r_1 + r_2  e^{(i\theta_2)} = r_3e^{(i\theta_3)} + r_4e^{(i\theta_4)} $$
 
-Eliminate theta3 to get a single equation in theta4 (Freudenstein form), then solve for theta4(theta2).
+Eliminate $\theta_3$ to get a single equation in $theta_4$ (Freudenstein form), then solve for $\theta_4, \theta_2$.
 
 
 
@@ -141,9 +144,3 @@ Eliminate theta3 to get a single equation in theta4 (Freudenstein form), then so
  ![final mechanism gif](assets/final_gif.gif)
 
 ---
-
-
-
-
-
-
