@@ -6,6 +6,32 @@
 - **Wing Design** → Aerodynamic design of the wings.
 - **Electronics** → Control system and power electronics.
 
+### Table of Contents
+
+- [Overview](#rc-ornithopter)
+- [Gearbox](.Gearbox/README.md)
+  - [Introduction](./Gearbox/README.md#gearbox)
+  - [Calculation of Reduction Ratio](./Gearbox/README.md#calculation-of-reduction-ratio)
+  - [Challenges](./Gearbox/README.md#challenges)
+  - [Implemented Gearbox](./Gearbox/README.md#implemented-gearbox)
+  - [Images](./Gearbox/README.md#implemented-gearbox)
+
+- [Wing Mechanism](./Wing_Mechanism/README.md)
+
+- [Wing Design](./Wing_Design/README.md)
+- [Wing Design](./Wing_Design/README.md#wing-design)  
+  - [Membraned Wing](./Wing_Design/README.md#membraned-wing)  
+    - [Challenges Faced](./Wing_Design/README.md#challenges-faced)  
+  - [Aerofoiled Wing](./Wing_Design/README.md#aerofoiled-wing)  
+    - [Prototyping Process](./Wing_Design/README.md#prototyping-process)  
+
+- [Electronics](./Electronics/README.md)
+
+- [Onshape Design](https://cad.onshape.com/documents/YourOnshapeDocumentID)  
+
+
+
+
 #  RC Ornithopter  
 
 An RC Ornithopter is a bio-inspired aircraft that flies by flapping its wings, much like birds, bats, and insects. Unlike traditional fixed-wing or rotary aircraft that rely on propellers, the ornithopter uses wing motion to generate both lift and thrust.   
@@ -31,8 +57,8 @@ We designed a compact 2-stage gearbox that achieves a final reduction ratio of *
 By balancing **weight (less than 100 g)**, durability, and efficiency, this gearbox ensures the wings flap with enough torque and optimum speed for **sustained and efficient flight**.  
 
 <p align="center">
-  <img src="Gearbox/assets/gearbox_sideview.jpg" alt="Gearbox Side View" width="30%">
-  <img src="Gearbox/assets/gearbox_front_view.jpg" alt="Gearbox Front View" width="30%">
+  <img src="Gearbox/assets/gearbox_sideview.jpg" alt="Gearbox Side View" width="25%">
+  <img src="Gearbox/assets/gearbox_front_view.jpg" alt="Gearbox Front View" width="19%">
 </p>  
 
 ---
@@ -54,8 +80,8 @@ The final choice was the Aerofoiled Wing specifically using the **S1223 aerofoil
 This design resulted in a lightweight, durable, and aerodynamically efficient wing, far superior to the membraned version, and capable of supporting sustained flight.  
 
 <p align="center">
-  <img src="Wing_Design/assets/S1223_aerofoil.jpg" alt="Aerofoil" width="30%">
-  <img src="Wing_Design/assets/aerofoil.jpg" alt="wing" width="30%">
+  <img src="Wing_Design/assets/S1223_aerofoil.jpg" alt="Aerofoil" width="25%">
+  <img src="Wing_Design/assets/aerofoil.jpg" alt="wing" width="25%">
 </p>  
 
 ---
@@ -75,5 +101,11 @@ The components were carefully chosen to balance weight and functionality. Despit
 </p>  
 
 ---
+##ONSHAPE LINK
+
+You can view the full **Onshape CAD model** of the Ornithopter [CAD][onshape].
+
+[onshape]: https://cad.onshape.com/documents/7e51fa35739853501e9f122a/w/9d3130ef820e21c89fae6eac/e/79e030b13582ccec2b7b5b67?renderMode=0&uiState=68bc1015e50a472c7cab4d18
 
 
+---
