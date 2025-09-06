@@ -42,8 +42,8 @@ To maximize aerodynamic performance, we have used the **S1223 aerofoil** for the
 The ornithopter is powered by a **1400 KV BLDC motor**, controlled with a **30A ESC**, and powered by a **1000mAh 30C Li-Po battery**. Overall, this project combines **aerodynamics, mechanical design, and electronics** to create a working prototype that demonstrates the **feasibility of flapping-wing flight**.  
 
 <p align="center">
-  <img src="assets/assembly.jpg" alt="assembly front view" width="30%">
-  <img src="assets/side_assembly.jpg" alt="side view" width="30%">
+  <img src="assets/assembly.jpg" alt="assembly front view" width="50%">
+  <img src="assets/side_assembly.jpg" alt="side view" width="50%">
 </p>  
 ---
 
@@ -56,8 +56,8 @@ We designed a compact 2-stage gearbox that achieves a final reduction ratio of *
 By balancing **weight (less than 100 g)**, durability, and efficiency, this gearbox ensures the wings flap with enough torque and optimum speed for **sustained and efficient flight**.  
 
 <p align="center">
-  <img src="Gearbox/assets/gearbox_sideview.jpg" alt="Gearbox Side View" width="25%">
-  <img src="Gearbox/assets/gearbox_front_view.jpg" alt="Gearbox Front View" width="19%">
+  <img src="Gearbox/assets/gearbox_sideview.jpg" alt="Gearbox Side View" width="45%">
+  <img src="Gearbox/assets/gearbox_front_view.jpg" alt="Gearbox Front View" width="39%">
 </p>  
 
 ---
@@ -79,8 +79,8 @@ The final choice was the Aerofoiled Wing specifically using the **S1223 aerofoil
 This design resulted in a lightweight, durable, and aerodynamically efficient wing, far superior to the membraned version, and capable of supporting sustained flight.  
 
 <p align="center">
-  <img src="Wing_Design/assets/S1223_aerofoil.jpg" alt="Aerofoil" width="25%">
-  <img src="Wing_Design/assets/aerofoil.jpg" alt="wing" width="25%">
+  <img src="Wing_Design/assets/S1223_aerofoil.jpg" alt="Aerofoil" width="50%">
+  <img src="Wing_Design/assets/aerofoil.jpg" alt="wing" width="50%">
 </p>  
 
 ---
@@ -95,7 +95,7 @@ For control, an **ESP32 microcontroller** was selected, paired with the **nRF24L
 The components were carefully chosen to balance weight and functionality. Despite challenges with libraries and toolchains (ESP-IDF vs. Arduino IDE), the system now enables precise and smooth control of the gearbox and wing mechanism.  
 
 <p align="center">
-  <img src="Electronics/assets/electronics_overview.jpg" alt="Electronics Overview" width="30%">
+  <img src="Electronics/assets/electronics.jpg" alt="Electronics " width="40%">
   
 </p>  
 
