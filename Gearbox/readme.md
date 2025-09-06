@@ -40,8 +40,8 @@ With these, we achieved the required reduction in just two stages:
 - **Stage 1:** 18T pinion → 128T gear → **7.11:1 reduction**  
 - **Stage 2:** 18T pinion → 114T gear → **6.33:1 reduction**  
 
-The diameter of pinion is **9.522mm** while that of 128T gear is **67.712mm** which is used in the 1st stage.
-The 2 gears of 114 teeths each on which the crank is mounted has a diameter of **60.306mm** making our gearbox compact in size.
+The diameter of pinion is **9.522mm** with a weight of around 5grams while that of 128T gear is **67.712mm** with a weight of 28.5g which is used in the 1st stage.
+The 2 gears of 114 teeths each on which the crank is mounted has a diameter of **60.306mm** and a weight of 26g each making our gearbox compact in size and light weight(the weights are calculated considering carbon fiber as material).
 
  **Final reduction ratio:**  
 \[
