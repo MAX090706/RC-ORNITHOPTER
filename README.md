@@ -38,21 +38,6 @@ By balancing **weight (less than 100 g)**, durability, and efficiency, this gear
 ---
 
 ## Wing Mechanism  
-
-The **wing mechanism** acts as the link between the gearbox and the wings, transmitting torque while ensuring **symmetric and controlled flapping motion**. We implemented a **4-bar mechanism**, widely used in ornithopter designs, to convert the rotary output of the gearbox into oscillatory wing motion.  
-
-This setup ensures:  
-- **Equal flapping angles** on both wings for stability  
-- **Smooth oscillation** without jerks or misalignment  
-- **Compact integration** with the gearbox  
-
-The mechanism was designed to maintain structural rigidity while allowing the wings to flap at **5 Hz**, synchronized with the gearbox output.  
-
-<p align="center">
-  <img src="WingMechanism/assets/mechanism_1.jpg" alt="Wing Mechanism View 1" width="30%">
-  <img src="WingMechanism/assets/mechanism_2.jpg" alt="Wing Mechanism View 2" width="30%">
-</p>  
-
 ---
 
 ##  Wing Design  
@@ -69,8 +54,8 @@ The final choice was the Aerofoiled Wing specifically using the **S1223 aerofoil
 This design resulted in a lightweight, durable, and aerodynamically efficient wing, far superior to the membraned version, and capable of supporting sustained flight.  
 
 <p align="center">
-  <img src="WingDesign/assets/S1223_aerofoil.jpg" alt="Aerofoil" width="30%">
-  <img src="WingDesign/assets/membranewing.jpg" alt="Membrane Wing Trial" width="30%">
+  <img src="Wing_Design/assets/S1223_aerofoil.jpg" alt="Aerofoil" width="30%">
+  <img src="Wing_Design/assets/aerofoil.jpg" alt="wing" width="30%">
 </p>  
 
 ---
