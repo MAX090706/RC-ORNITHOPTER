@@ -16,7 +16,15 @@
   - [Implemented Gearbox](./Gearbox/README.md#implemented-gearbox)
   - [Images](./Gearbox/README.md#implemented-gearbox)
 
-- [Wing Mechanism – Flapping & Folding System](./Wing_Mechanism/README.md)
+- [Wing Mechanism](./Wing_Mechanism/README.md)
+  - [Four–Bar Linkage: a 30-second primer](./Wing_Mechanism/README.md#1-fourbar-linkage-a-30-second-primer)  
+  - [Grashof’s Condition (can a link rotate fully?)](./Wing_Mechanism/README.md#2-grashofs-condition-can-a-link-rotate-fully)  
+  - [Flapping Mechanism Geometry & Result](./Wing_Mechanism/README.md#3-flapping-mechanism-geometry--result)  
+  - [Folding Mechanism (second four–bar)](./Wing_Mechanism/README.md#4-folding-mechanism-second-fourbar)  
+  - [Math Notes (how the angles are solved)](./Wing_Mechanism/README.md#5-math-notes-how-the-angles-are-solved)  
+  - [Prototyping and assembly of the mechanism](./Wing_Mechanism/#6-prototyping-and-assembly-of-the-mechanism)  
+
+
 
 - [Wing Design](./Wing_Design/README.md#wing-design)  
   - [Membraned Wing](./Wing_Design/README.md#membraned-wing)  
@@ -28,8 +36,9 @@
 
 - [Onshape Design](https://cad.onshape.com/documents/YourOnshapeDocumentID)  
 
+- [Resources](./README.md)
 
-
+- [acknowledgement](./README.md)
 
 #  RC Ornithopter  
 
@@ -41,16 +50,11 @@ To maximize aerodynamic performance, we have used the **S1223 aerofoil** for the
 
 The ornithopter is powered by a **1400 KV BLDC motor**, controlled with a **30A ESC**, and powered by a **1000mAh 30C Li-Po battery**. Overall, this project combines **aerodynamics, mechanical design, and electronics** to create a working prototype that demonstrates the **feasibility of flapping-wing flight**.  
 
-
-
 <p align="center">
-  <img src="assets/assembly.jpg" alt="assembly front view" width="45%">
-  <img src="assets/side_assembly.jpg" alt="side view" width="45%">
+  <img src="assets/assembly.jpg" alt="assembly front view" width="50%">
+  <img src="assets/side_assembly.jpg" alt="side view" width="50%">
 </p>  
-
 ---
-
-![working_gif](assets/output(1).gif)
 
 ## Gearbox  
 
@@ -62,28 +66,12 @@ By balancing **weight (less than 100 g)**, durability, and efficiency, this gear
 
 <p align="center">
   <img src="Gearbox/assets/gearbox_sideview.jpg" alt="Gearbox Side View" width="45%">
-  <img src="Gearbox/assets/gearbox_front_view.jpg" alt="Gearbox Front View" width="45%">
+  <img src="Gearbox/assets/gearbox_front_view.jpg" alt="Gearbox Front View" width="39%">
 </p>  
 
 ---
 
-
-
-## Wing Mechanism – Flapping & Folding System
-
-![4bar](assets/output.gif)
-
-This project presents the design and development of a **flapping and folding wing mechanism** inspired by bird flight. The system is based on **four–bar linkages**, where a motor-driven crank provides continuous motion that translates into controlled oscillation of the wing. A second four–bar linkage is added to achieve **wing folding**, mimicking the natural movement of birds during flight. The mechanism satisfies **Grashof’s condition**, ensuring smooth continuous motion and reliable operation.
-
-  <p align="center">
-  <img src="assets/r1.png" alt="1st4bar" width="45%">
-  <img src="assets/r1(1).png" alt="2nd4bar" width="45%">
-</p>  
-
-The flapping linkage produces an amplitude of about **30° per cycle**, while the folding linkage enables the wing to retract effectively. The mathematical modeling is derived from vector loop equations (Freudenstein’s form), allowing accurate prediction of linkage motion.  
-
-Prototyping was carried out in two stages: first using **3D-printed PLA parts**, which revealed issues with joint stability, and later refined with **carbon fiber rods** and a custom gearbox for greater strength and smooth performance. The final prototype demonstrates a lightweight, durable, and realistic wing mechanism capable of both flapping and folding actions.  
-
+## Wing Mechanism  
 ---
 
 ##  Wing Design  
@@ -113,10 +101,10 @@ We used a **1400 KV A2212/10T BLDC motor (68 g)** powered by a **1000mAh 11.1V 3
 
 For control, an **ESP32 microcontroller** was selected, paired with the **nRF24L01 radio module** for wireless communication. This enabled us to transmit control inputs remotely in real time.
 
-The components were carefully chosen to balance weight and functionality. Despite challenges with libraries and toolchains (ESP-IDF), the system now enables precise and smooth control of the gearbox and wing mechanism.  
+The components were carefully chosen to balance weight and functionality. Despite challenges with libraries and toolchains (ESP-IDF vs. Arduino IDE), the system now enables precise and smooth control of the gearbox and wing mechanism.  
 
 <p align="center">
-  <img src="Electronics/assets/electronics.jpg" alt="Electronics " width="40%">
+  <img src="Electronics/assets/electronics.jpg" alt="Electronics " width="50%">
   
 </p>  
 
