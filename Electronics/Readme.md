@@ -22,9 +22,3 @@ This section shows the steps and problems i faced when building the control syst
 ### **3. Notable Challenges & Solutions**
 
 * **ESP-IDF vs. Arduino-IDE**: Once I started with the wireless part of the control system , I encounterd a big challenge , the thing is that the header fiels used in the module **nRF24L01** nRF24.h does not exist in esp-idf , I tried to find thoes files but i was not able to find it thats why i was suggested to use arduino-ide , there were still some prolems with that , like the latest version of the esp32 on arduino that is v3.1 does not support spi.h files so i had to move to the older version of it precisely v2.0 then i had to down load the nRF24 fiels from library . After doing all this I was finally able to control the motor wirelessly 
-
-### **4. Files and Folders**
-
-* `code/`: Contains the microcontroller code for both wired and wireless control.
-* `schematics/`: Includes component layouts.
-* `datasheets/`: Houses technical specifications for all electronic components. 
