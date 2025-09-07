@@ -52,8 +52,10 @@ The ornithopter is powered by a **1400 KV BLDC motor**, controlled with a **30A 
 
 <p align="center">
   <img src="assets/assembly.jpg" alt="assembly front view" width="50%">
-  <img src="assets/side_assembly.jpg" alt="side view" width="50%">
-</p>  
+  <img src="assets/side_assembly.jpg" alt="side view" width="45%">
+</p>
+
+![workingmech](/assets/output(1).gif)  
 ---
 
 ## Gearbox  
@@ -69,10 +71,21 @@ By balancing **weight (less than 100 g)**, durability, and efficiency, this gear
   <img src="Gearbox/assets/gearbox_front_view.jpg" alt="Gearbox Front View" width="39%">
 </p>  
 
+  
 ---
 
-## Wing Mechanism  
----
+## Wing Mechanism – Flapping & Folding System
+
+This project presents the design and development of a **flapping and folding wing mechanism** inspired by bird flight. The system is based on **four–bar linkages**, where a motor-driven crank provides continuous motion that translates into controlled oscillation of the wing. A second four–bar linkage is added to achieve **wing folding**, mimicking the natural movement of birds during flight. The mechanism satisfies **Grashof’s condition**, ensuring smooth continuous motion and reliable operation.  
+![4bar](/assets/output.gif)
+The flapping linkage produces an amplitude of about **30° per cycle**, while the folding linkage enables the wing to retract effectively. The mathematical modeling is derived from vector loop equations (Freudenstein’s form), allowing accurate prediction of linkage motion.
+<p align="center">
+  <img src="assets/r1.png" alt="Image 1" width="45%" />
+  <img src="assets/r1(1).png" alt="Image 2" width="45%" />
+</p>
+
+Prototyping was carried out in two stages: first using **3D-printed PLA parts**, which revealed issues with joint stability, and later refined with **carbon fiber rods** and a custom gearbox for greater strength and smooth performance. The final prototype demonstrates a lightweight, durable, and realistic wing mechanism capable of both flapping and folding actions.  
+
 
 ##  Wing Design  
 
@@ -101,7 +114,7 @@ We used a **1400 KV A2212/10T BLDC motor (68 g)** powered by a **1000mAh 11.1V 3
 
 For control, an **ESP32 microcontroller** was selected, paired with the **nRF24L01 radio module** for wireless communication. This enabled us to transmit control inputs remotely in real time.
 
-The components were carefully chosen to balance weight and functionality. Despite challenges with libraries and toolchains (ESP-IDF vs. Arduino IDE), the system now enables precise and smooth control of the gearbox and wing mechanism.  
+The components were carefully chosen to balance weight and functionality. Despite challenges with libraries and toolchains (ESP-IDF), the system now enables precise and smooth control of the gearbox and wing mechanism.  
 
 <p align="center">
   <img src="Electronics/assets/electronics.jpg" alt="Electronics " width="50%">
