@@ -10,7 +10,7 @@
 
 - [Overview](#rc-ornithopter)
 - [Gearbox](.Gearbox/README.md)
-  - [Introduction](./Gearbox/README.md#gearbox)
+  - [Introduction](./Gearbox/README.md)
   - [Calculation of Reduction Ratio](./Gearbox/README.md#calculation-of-reduction-ratio)
   - [Challenges](./Gearbox/README.md#challenges)
   - [Implemented Gearbox](./Gearbox/README.md#implemented-gearbox)
