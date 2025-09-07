@@ -9,12 +9,12 @@
 ### Table of Contents
 
 - [Overview](#rc-ornithopter)
-- [Gearbox](.Gearbox/README.md)
-  - [Introduction](./Gearbox/README.md)
-  - [Calculation of Reduction Ratio](./Gearbox/README.md#calculation-of-reduction-ratio)
-  - [Challenges](./Gearbox/README.md#challenges)
-  - [Implemented Gearbox](./Gearbox/README.md#implemented-gearbox)
-  - [Images](./Gearbox/README.md#implemented-gearbox)
+- [Gearbox](.Gearbox/readme.md)
+  - [Introduction](./Gearbox/readme.md)
+  - [Calculation of Reduction Ratio](./Gearbox/readme.md#calculation-of-reduction-ratio)
+  - [Challenges](./Gearbox/readme.md#challenges)
+  - [Implemented Gearbox](./Gearbox/readme.md#implemented-gearbox)
+  - [Images](./Gearbox/readme.md#implemented-gearbox)
 
 - [Wing Mechanism](./Wing_Mechanism/README.md)
   - [Four–Bar Linkage: a 30-second primer](./Wing_Mechanism/README.md#1-fourbar-linkage-a-30-second-primer)  
